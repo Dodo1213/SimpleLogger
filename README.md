@@ -1,5 +1,5 @@
 # SimpleLogger
-Simple Logger with Colors
+Simple Logger with Colors for Java
 
 Usage Example:
 
