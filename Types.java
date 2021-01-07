@@ -11,5 +11,6 @@ public enum Types {
     WARNING,
     INFO,
     ERROR,
-    SUCCESS
+    SUCCESS,
+    DEBUG
 }
