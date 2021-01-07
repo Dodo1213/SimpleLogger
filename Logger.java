@@ -38,6 +38,9 @@ public class Logger {
         } else if(type == Types.SUCCESS) {
             String text = "[" + date + "] " + mainPrefix + RESET +" [" + GREEN + "SUCCESS" + RESET + "]: " + message;
             System.out.println(text);
+        } else if(type == Types.DEBUG) {
+            String text = "[" + date + "] " + mainPrefix + RESET +" [" + PURPLE + "DEBUG" + RESET + "]: " + message;
+            System.out.println(text);
         }
     }
 }
