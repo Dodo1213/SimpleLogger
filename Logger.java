@@ -5,6 +5,13 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Date;
 
+/*
+ *
+ *  * Class created by Nasty / Ron S.
+ *  * 07.01.21, 01:08
+ *
+ */
+
 public class Logger {
     private static final String RESET = "\u001B[0m";
     private static final String BLACK = "\u001B[30m";
