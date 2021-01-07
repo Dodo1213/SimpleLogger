@@ -22,7 +22,7 @@ public class Logger {
     private static final String WHITE = "\u001B[37m";
 
     public static void send(Types type, String message) {
-        String mainPrefix = "[HUE-BOT]";
+        String mainPrefix = "[NAME]";
         DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("hh:mm:ss");
         String date = dateTimeFormatter.format(LocalDateTime.now());
 
