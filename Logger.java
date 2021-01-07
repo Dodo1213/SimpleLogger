@@ -30,7 +30,7 @@ public class Logger {
             String text = "[" + date + "] " + mainPrefix + RESET +" [" + YELLOW + "WARNING" + RESET + "]: " + message;
             System.out.println(text);
         } else if(type == Types.INFO) {
-            String text = "[" + date + "] " + mainPrefix + RESET +" [" + BLUE + "INFO" + RESET + "]:" + message;
+            String text = "[" + date + "] " + mainPrefix + RESET +" [" + BLUE + "INFO" + RESET + "]: " + message;
             System.out.println(text);
         } else if(type == Types.ERROR) {
             String text = "[" + date + "] " + mainPrefix + RESET +" [" + RED + "ERROR" + RESET + "]: " + message;
